@@ -5,7 +5,7 @@ pipeline {
     }
         environment {
         DIRECTORY_PATH = 'C:\\path\\to\\your\\project'
-        EMAIL_RECIPIENT = 'taykenneth198@gmail.com'
+        EMAIL_RECIPIENT = 'taykenneth@rocketmail.com'
     }
     stages {
         stage('Build') {
