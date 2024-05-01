@@ -27,6 +27,7 @@ pipeline {
         }
         stage('Security Scan') {
 
+<<<<<<< HEAD
         steps {
             echo 'Performing security scanning using OWASP ZAP.'
         }
@@ -62,3 +63,15 @@ post {
         echo 'Pipeline completed successfully.'
     }
 }
+=======
+	stages {
+		stage('Build') {
+			steps {
+			echo 'Building...'
+			echo 'fetch the source code from the directory path specified by the environment variable.'
+			echo 'compile the code and generate any necessary artifacts.'
+			}
+		}
+	}
+}
+>>>>>>> 669e7915da2876c34f4615598a07b4a049673269
