@@ -52,12 +52,13 @@ pipeline {
         }
     }
 }
-post {
-    failure {
-        echo 'Sending failure notification email.'
-        // Logic to send failure email
-    }
-    success {
-        echo 'Pipeline completed successfully.'
+    post {
+        failure {
+            echo 'Sending failure notification email.'
+            // Logic to send failure email
+        }
+        success {
+            echo 'Pipeline completed successfully.'
+        }
     }
 }
