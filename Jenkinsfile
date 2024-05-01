@@ -61,7 +61,6 @@ post {
         echo 'Pipeline completed successfully.'
     }
 }
-=======
 	stages {
 		stage('Build') {
 			steps {
@@ -72,4 +71,3 @@ post {
 		}
 	}
 }
->>>>>>> 669e7915da2876c34f4615598a07b4a049673269
